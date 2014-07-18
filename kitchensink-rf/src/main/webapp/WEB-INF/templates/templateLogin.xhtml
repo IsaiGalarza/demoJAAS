@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:h="http://java.sun.com/jsf/html"
+    xmlns:ui="http://java.sun.com/jsf/facelets"
+    xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:a4j="http://richfaces.org/a4j"
+    xmlns:rich="http://richfaces.org/rich">
+<h:head>
+   <title>:: Demo JAAS ::</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <h:outputStylesheet name="screen.css" library="css"/>
+</h:head>
+<h:body>
+
+<div id="container" style="width:100%">
+
+	<div id="header" >
+		<div class="dualbrand">
+            <h:graphicImage name="rhjb_eap_logo.png" library="gfx"/>
+        </div>
+		<ui:insert name="header">
+                [Main Title of Web Page]
+        </ui:insert>
+	</div>
+    
+    <div id="content" style="height:100%; width:95%; float: left;">
+         <ui:insert name="content">
+                [Template content will be inserted here]
+         </ui:insert>
+    </div>
+       
+        <div id="footer">
+            <p>
+                This project was generated from a Maven archetype from JBoss.<br />
+            </p>
+        </div>
+
+</div>
+
+</h:body>
+</html>
